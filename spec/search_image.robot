@@ -8,7 +8,7 @@ Suite Teardown      Close browser
 
 
 *** Variables ***
-${BROWSER}      chrome
+${BROWSER}      chromes
 ${imagebutton}    //*[contains(./@class,'nDcEnd')]
 ${upload a file}   //*[contains(./@class,'DV7the')]
 ${result}           xpath=//div[${VISIT_RESULT}]/div/div/a/div/div/div/img
