@@ -32,4 +32,6 @@ Search Image
     Wait Until Element is Visible       ${result}
     Sleep    3s
     Click Image     ${result}
-    Switch Window
+    Sleep    3s
+    ${windowtoopen}     get_window_handles
+    Switch Window   ${windowtoopen}[1]
