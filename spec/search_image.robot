@@ -2,12 +2,12 @@
 Documentation	Search by Image
 Library     SeleniumLibrary
 Variables         ../environments/test_env.py
-Suite Teardown      Close browser
+Suite Teardown  Close browser
 
 
 
 *** Variables ***
-${BROWSER}      Firefox
+${BROWSER}      Chrome
 ${imagebutton}    //*[contains(./@class,'nDcEnd')]
 ${upload a file}   //*[contains(./@class,'DV7the')]
 ${result}           xpath=//div[${VISIT_RESULT}]/div/div/a/div/div/div/img
